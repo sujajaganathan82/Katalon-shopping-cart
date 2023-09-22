@@ -3,6 +3,7 @@ const cucumber = require("cypress-cucumber-preprocessor").default;
 
 module.exports = defineConfig({
   e2e: {
+    projectId: "we7v3b",
     defaultCommandTimeout: 8000,
     chromeWebSecurity: false,
     video: true,
