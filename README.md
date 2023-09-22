@@ -24,7 +24,7 @@
 ## Execution Instruction:
 
     1. Open Visual Studio Code and clone the ShoppingCartProject from the terminal using the command - 
-    	git clone https://github.com/](https://github.com/sujajaganathan82/Katalon-shopping-cart
+    	git clone https://github.com/sujajaganathan82/Katalon-shopping-cart
     
     2. Go to the project directory 
     
