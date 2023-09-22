@@ -7,6 +7,7 @@ As a user
 Background: 
 Given I navigated to the Products Page  
 
+@regression
 Scenario: Add items to the cart and remove the lowest priced item from the cart
 Given I add four random items to my cart
 When I view my cart

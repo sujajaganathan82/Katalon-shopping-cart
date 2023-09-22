@@ -3,6 +3,17 @@ const cucumber = require("cypress-cucumber-preprocessor").default;
 
 module.exports = defineConfig({
   e2e: {
+    defaultCommandTimeout: 8000,
+    chromeWebSecurity: false,
+    video: true,
+    screenshotOnRunFailure: true,
+    reporter: "cypress-mochawesome-reporter",
+    reporterOptions: {
+      reportDir: "cypress/reports",
+      overwrite: true,
+      html: true,
+      json: true,
+    },
     setupNodeEvents(on, config) {
       // implement node event listeners here
       on("file:preprocessor", cucumber());

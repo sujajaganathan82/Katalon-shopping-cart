@@ -9,17 +9,13 @@
 // ***********************************************
 //
 //
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add("selectProduct", (productName) => {
+  cy.get(".products")
+    .find("li[class*=instock]")
+    .each(($el, index, $list) => {
+      const itemName = $el.find("a h2.woocommerce-loop-product__title").text();
+      if (itemName.includes(productName)) {
+        cy.wrap($el).contains("Add to cart").click();
+      }
+    });
+});
