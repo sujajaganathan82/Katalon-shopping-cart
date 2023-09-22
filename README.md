@@ -96,6 +96,11 @@
 <img width="1439" alt="Cypress_Dashboard_Replay" src="https://github.com/sujajaganathan82/Katalon-shopping-cart/assets/4892447/afd82fd7-38b5-4172-8efc-e02f79f7e031">
 
 
+
+<img width="1215" alt="Cypress_Test_Video_Created" src="https://github.com/sujajaganathan82/Katalon-shopping-cart/assets/4892447/aca76e2b-5bd5-4449-8961-45d34b9302b9">
+
+
+
 ## Screenshots of the test executions on Cypress Test Runner 
 
 <img width="1427" alt="Cypress_Test_Runner" src="https://github.com/sujajaganathan82/Katalon-shopping-cart/assets/4892447/b1f42406-7270-46bf-bede-69a0c8a5bb74">
